@@ -19,7 +19,7 @@ class App extends Component {
   };
   render() {
     return (
-      <Router basename='/portofolio'>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className='App'>
           <NavBar
             drawerClickHandler={this.drawerTaggleClickHandler}
