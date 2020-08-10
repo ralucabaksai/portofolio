@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portofolio/static/css/main.48b074f6.chunk.css",
+    "main.js": "/portofolio/static/js/main.4f3f83e4.chunk.js",
+    "main.js.map": "/portofolio/static/js/main.4f3f83e4.chunk.js.map",
+    "runtime-main.js": "/portofolio/static/js/runtime-main.74c6be3c.js",
+    "runtime-main.js.map": "/portofolio/static/js/runtime-main.74c6be3c.js.map",
+    "static/js/2.d7e8d4ec.chunk.js": "/portofolio/static/js/2.d7e8d4ec.chunk.js",
+    "static/js/2.d7e8d4ec.chunk.js.map": "/portofolio/static/js/2.d7e8d4ec.chunk.js.map",
+    "index.html": "/portofolio/index.html",
+    "precache-manifest.8fb75937fec2677fe83a45c08882ea54.js": "/portofolio/precache-manifest.8fb75937fec2677fe83a45c08882ea54.js",
+    "service-worker.js": "/portofolio/service-worker.js",
+    "static/css/main.48b074f6.chunk.css.map": "/portofolio/static/css/main.48b074f6.chunk.css.map",
+    "static/js/2.d7e8d4ec.chunk.js.LICENSE.txt": "/portofolio/static/js/2.d7e8d4ec.chunk.js.LICENSE.txt",
+    "static/media/project-blog1.jpg": "/portofolio/static/media/project-blog1.8f7b79f6.jpg",
+    "static/media/project-canvas1.jpg": "/portofolio/static/media/project-canvas1.c3861b03.jpg",
+    "static/media/project-game1.jpg": "/portofolio/static/media/project-game1.5e1734aa.jpg",
+    "static/media/project-infinite-scroll1.jpg": "/portofolio/static/media/project-infinite-scroll1.e81dc357.jpg",
+    "static/media/project-tic-tac-toe1.jpg": "/portofolio/static/media/project-tic-tac-toe1.1547c113.jpg",
+    "static/media/project-weather-app1.jpg": "/portofolio/static/media/project-weather-app1.247f3e2e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74c6be3c.js",
+    "static/js/2.d7e8d4ec.chunk.js",
+    "static/css/main.48b074f6.chunk.css",
+    "static/js/main.4f3f83e4.chunk.js"
+  ]
+}
