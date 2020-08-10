@@ -1,0 +1,26 @@
+.myForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.myForm button {
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  background: #e9dfdb;
+  margin-top: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
+  height: 2rem;
+  width: 5rem;
+  color: #636fa4;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}

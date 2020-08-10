@@ -1,0 +1,13 @@
+.projects {
+  font-family: Roboto;
+  min-height: calc(100vh - 50px - 64px);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.projects h1 {
+  color: #636fa4;
+  font-size: 2rem;
+  text-align: center;
+}

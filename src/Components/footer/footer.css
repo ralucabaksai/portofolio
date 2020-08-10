@@ -1,0 +1,21 @@
+.footer {
+  background: #e8cbc0;
+  background: -webkit-linear-gradient(to right, #636fa4, #e8cbc0);
+  background: linear-gradient(to right, #636fa4, #e8cbc0);
+  height: 50px;
+  /* height: 3vh; */
+  font-family: Oxygen;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 200;
+  bottom: 0;
+  justify-content: center;
+}
+.footer div {
+  color: #e8cbc0;
+  font-size: 1 rem;
+  margin-left: 5rem;
+}

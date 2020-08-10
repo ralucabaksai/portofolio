@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from "react";
+import "./app.css";
+import NavBar from "./Components/navbar/navbar";
+import Main from "./Components/main";
+import { BrowserRouter as Router } from "react-router-dom";
+import SideDrawer from "./Components/navbar/side-drawer/side-drawer";
+import Footer from "./Components/footer/footer";
+class App extends Component {
+  state = {
+    sideDrawerOpen: false,
+  };
+  drawerTaggleClickHandler = () => {
+    this.setState((prevState) => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+    });
+  };
+  closeSideDrawer = () => {
+    this.setState({ sideDrawerOpen: false });
+  };
+  render() {
+    return (
+      <Router>
+        <div className='App'>
+          <NavBar
+            drawerClickHandler={this.drawerTaggleClickHandler}
+            rotate={this.state.sideDrawerOpen}
+          />
+          <SideDrawer
+            show={this.state.sideDrawerOpen}
+            closeSideDrawer={this.closeSideDrawer}
+          />
+          <Main />
+          <Footer />
+        </div>
+      </Router>
+    );
+  }
 }
-
 export default App;

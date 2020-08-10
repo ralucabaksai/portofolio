@@ -1,0 +1,39 @@
+.contactPage {
+  font-family: Roboto;
+  min-height: calc(100vh - 50px - 64px);
+  color: #636fa4;
+  display: flex;
+  align-items: center;
+}
+
+.contactPage h2 {
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+
+.contactPage a {
+  font-size: 1rem;
+  color: #636fa4;
+  text-decoration: none;
+  cursor: pointer;
+}
+.contactPage a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.contactPage ul {
+  margin: 0;
+  padding: 0;
+}
+.contactPage li {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+.contactPage span {
+  padding-left: 1rem;
+  font-size: 1rem;
+}

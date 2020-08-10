@@ -1,0 +1,35 @@
+.toggle_button {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  width: 2.5rem;
+  height: 2rem;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 650ms ease-out;
+}
+.toggle_button.open {
+  transform: rotate(-450deg);
+}
+.bar {
+  background: #e8cbc0;
+  width: 100%;
+  height: 0.2rem;
+  border-radius: 0.8rem;
+}
+.bar.half {
+  width: 50%;
+}
+.bar.start {
+  transform-origin: right;
+  transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
+.bar.end {
+  transform-origin: left;
+  align-self: flex-end;
+  transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
