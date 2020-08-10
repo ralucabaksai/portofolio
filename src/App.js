@@ -19,7 +19,7 @@ class App extends Component {
   };
   render() {
     return (
-      <Router>
+      <Router basename='https://ralucabaksai.github.io/portofolio'>
         <div className='App'>
           <NavBar
             drawerClickHandler={this.drawerTaggleClickHandler}
