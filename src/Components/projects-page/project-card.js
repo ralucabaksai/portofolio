@@ -51,6 +51,7 @@ function ProjectCard(props) {
       <CardMedia
         className={classes.media}
         image={props.img}
+        component='img'
         title={props.title}
       />
       <CardContent>
